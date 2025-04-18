@@ -723,3 +723,202 @@ AttributeError: 'FSMContext' object has no attribute 'finish'
 2025-04-18 15:03:32,700 - aiogram.event - INFO - Update id=48360509 is handled. Duration 344 ms by bot id=7380357980
 2025-04-18 15:03:43,795 - aiogram.dispatcher - INFO - Polling stopped
 2025-04-18 15:03:44,058 - aiogram.dispatcher - INFO - Polling stopped for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 15:22:04,419 - database - INFO - Таблицы students и unpaired_students инициализированы
+2025-04-18 15:22:04,420 - database - INFO - Таблица lectures инициализирована
+2025-04-18 15:22:37,537 - database - INFO - Таблицы students и unpaired_students инициализированы
+2025-04-18 15:22:37,538 - database - INFO - Таблица lectures инициализирована
+2025-04-18 15:22:37,727 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:22:37,728 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:22:37,728 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:22:37,728 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:22:37,729 - apscheduler.scheduler - INFO - Added job "organize_random_coffee" to job store "default"
+2025-04-18 15:22:37,729 - apscheduler.scheduler - INFO - Added job "organize_mock_interview" to job store "default"
+2025-04-18 15:22:37,730 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 15:22:37,730 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 15:22:37,730 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-18 15:22:37,730 - __main__ - INFO - Планировщик задач запущен
+2025-04-18 15:22:37,730 - __main__ - INFO - Бот запущен
+2025-04-18 15:22:37,731 - aiogram.dispatcher - INFO - Start polling
+2025-04-18 15:22:38,727 - aiogram.dispatcher - INFO - Run polling for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 15:22:39,014 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:22:39,014 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7380357980)
+2025-04-18 15:22:43,289 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:22:43,290 - aiogram.dispatcher - WARNING - Sleep for 1.320453 seconds and try again... (tryings = 1, bot id = 7380357980)
+2025-04-18 15:22:44,897 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:22:44,897 - aiogram.dispatcher - WARNING - Sleep for 1.648388 seconds and try again... (tryings = 2, bot id = 7380357980)
+2025-04-18 15:22:49,836 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:22:49,836 - aiogram.dispatcher - WARNING - Sleep for 2.093932 seconds and try again... (tryings = 3, bot id = 7380357980)
+2025-04-18 15:22:52,211 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:22:52,212 - aiogram.dispatcher - WARNING - Sleep for 2.589318 seconds and try again... (tryings = 4, bot id = 7380357980)
+2025-04-18 15:22:58,090 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:22:58,090 - aiogram.dispatcher - WARNING - Sleep for 3.193502 seconds and try again... (tryings = 5, bot id = 7380357980)
+2025-04-18 15:23:01,569 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:23:01,569 - aiogram.dispatcher - WARNING - Sleep for 4.050908 seconds and try again... (tryings = 6, bot id = 7380357980)
+2025-04-18 15:23:05,915 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:23:05,915 - aiogram.dispatcher - WARNING - Sleep for 4.978400 seconds and try again... (tryings = 7, bot id = 7380357980)
+2025-04-18 15:23:11,184 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:23:11,185 - aiogram.dispatcher - WARNING - Sleep for 5.025148 seconds and try again... (tryings = 8, bot id = 7380357980)
+2025-04-18 15:23:16,497 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:23:16,498 - aiogram.dispatcher - WARNING - Sleep for 4.830973 seconds and try again... (tryings = 9, bot id = 7380357980)
+2025-04-18 15:23:21,609 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:23:21,610 - aiogram.dispatcher - WARNING - Sleep for 5.003218 seconds and try again... (tryings = 10, bot id = 7380357980)
+2025-04-18 15:23:26,902 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:23:26,902 - aiogram.dispatcher - WARNING - Sleep for 4.917726 seconds and try again... (tryings = 11, bot id = 7380357980)
+2025-04-18 15:23:32,097 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:23:32,097 - aiogram.dispatcher - WARNING - Sleep for 4.980941 seconds and try again... (tryings = 12, bot id = 7380357980)
+2025-04-18 15:23:37,366 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:23:37,367 - aiogram.dispatcher - WARNING - Sleep for 4.883361 seconds and try again... (tryings = 13, bot id = 7380357980)
+2025-04-18 15:23:42,533 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:23:42,533 - aiogram.dispatcher - WARNING - Sleep for 4.967098 seconds and try again... (tryings = 14, bot id = 7380357980)
+2025-04-18 15:23:47,778 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:23:47,778 - aiogram.dispatcher - WARNING - Sleep for 5.206620 seconds and try again... (tryings = 15, bot id = 7380357980)
+2025-04-18 15:23:53,269 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:23:53,269 - aiogram.dispatcher - WARNING - Sleep for 5.088838 seconds and try again... (tryings = 16, bot id = 7380357980)
+2025-04-18 15:23:58,641 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:23:58,641 - aiogram.dispatcher - WARNING - Sleep for 5.048176 seconds and try again... (tryings = 17, bot id = 7380357980)
+2025-04-18 15:24:03,977 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:24:03,977 - aiogram.dispatcher - WARNING - Sleep for 4.901819 seconds and try again... (tryings = 18, bot id = 7380357980)
+2025-04-18 15:24:07,442 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-18 15:24:07,703 - aiogram.dispatcher - INFO - Polling stopped for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 15:24:33,977 - database - INFO - Таблицы students и unpaired_students инициализированы
+2025-04-18 15:24:33,977 - database - INFO - Таблица lectures инициализирована
+2025-04-18 15:24:34,159 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:24:34,159 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:24:34,159 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:24:34,159 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:24:34,169 - apscheduler.scheduler - INFO - Added job "organize_random_coffee" to job store "default"
+2025-04-18 15:24:34,169 - apscheduler.scheduler - INFO - Added job "organize_mock_interview" to job store "default"
+2025-04-18 15:24:34,169 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 15:24:34,169 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 15:24:34,169 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-18 15:24:34,169 - __main__ - INFO - Планировщик задач запущен
+2025-04-18 15:24:34,169 - __main__ - INFO - Бот запущен
+2025-04-18 15:24:34,169 - aiogram.dispatcher - INFO - Start polling
+2025-04-18 15:24:34,992 - aiogram.dispatcher - INFO - Run polling for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 15:24:35,278 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:24:35,278 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7380357980)
+2025-04-18 15:24:39,550 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:24:39,550 - aiogram.dispatcher - WARNING - Sleep for 1.275406 seconds and try again... (tryings = 1, bot id = 7380357980)
+2025-04-18 15:24:41,112 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:24:41,112 - aiogram.dispatcher - WARNING - Sleep for 1.624855 seconds and try again... (tryings = 2, bot id = 7380357980)
+2025-04-18 15:24:44,646 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-04-18 15:24:44,656 - aiogram.dispatcher - WARNING - Sleep for 2.111101 seconds and try again... (tryings = 3, bot id = 7380357980)
+2025-04-18 15:24:46,962 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:24:46,963 - aiogram.dispatcher - WARNING - Sleep for 2.725887 seconds and try again... (tryings = 4, bot id = 7380357980)
+2025-04-18 15:24:52,770 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:24:52,770 - aiogram.dispatcher - WARNING - Sleep for 3.458385 seconds and try again... (tryings = 5, bot id = 7380357980)
+2025-04-18 15:24:56,303 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:24:56,303 - aiogram.dispatcher - WARNING - Sleep for 4.428852 seconds and try again... (tryings = 6, bot id = 7380357980)
+2025-04-18 15:25:00,799 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:25:00,800 - aiogram.dispatcher - WARNING - Sleep for 5.087007 seconds and try again... (tryings = 7, bot id = 7380357980)
+2025-04-18 15:25:05,951 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:25:05,952 - aiogram.dispatcher - WARNING - Sleep for 4.950564 seconds and try again... (tryings = 8, bot id = 7380357980)
+2025-04-18 15:25:10,143 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-18 15:25:10,402 - aiogram.dispatcher - INFO - Polling stopped for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 15:26:18,626 - database - INFO - Таблицы students и unpaired_students инициализированы
+2025-04-18 15:26:18,627 - database - INFO - Таблица lectures инициализирована
+2025-04-18 15:26:18,832 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:26:18,832 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:26:18,833 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:26:18,833 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:26:18,834 - apscheduler.scheduler - INFO - Added job "organize_random_coffee" to job store "default"
+2025-04-18 15:26:18,834 - apscheduler.scheduler - INFO - Added job "organize_mock_interview" to job store "default"
+2025-04-18 15:26:18,834 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 15:26:18,834 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 15:26:18,834 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-18 15:26:18,835 - __main__ - INFO - Планировщик задач запущен
+2025-04-18 15:26:18,835 - __main__ - INFO - Бот запущен
+2025-04-18 15:26:18,836 - aiogram.dispatcher - INFO - Start polling
+2025-04-18 15:26:19,162 - aiogram.dispatcher - INFO - Run polling for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 15:26:19,257 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:26:19,259 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7380357980)
+2025-04-18 15:26:23,351 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:26:23,352 - aiogram.dispatcher - WARNING - Sleep for 1.374603 seconds and try again... (tryings = 1, bot id = 7380357980)
+2025-04-18 15:26:24,823 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:26:24,823 - aiogram.dispatcher - WARNING - Sleep for 1.800601 seconds and try again... (tryings = 2, bot id = 7380357980)
+2025-04-18 15:26:29,713 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:26:29,715 - aiogram.dispatcher - WARNING - Sleep for 2.367909 seconds and try again... (tryings = 3, bot id = 7380357980)
+2025-04-18 15:26:32,162 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:26:32,163 - aiogram.dispatcher - WARNING - Sleep for 3.095510 seconds and try again... (tryings = 4, bot id = 7380357980)
+2025-04-18 15:26:35,327 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 15:26:35,328 - aiogram.dispatcher - WARNING - Sleep for 3.995533 seconds and try again... (tryings = 5, bot id = 7380357980)
+2025-04-18 15:26:38,511 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-18 15:26:38,771 - aiogram.dispatcher - INFO - Polling stopped for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 15:28:16,485 - database - INFO - Таблицы students и unpaired_students инициализированы
+2025-04-18 15:28:16,485 - database - INFO - Таблица lectures инициализирована
+2025-04-18 15:28:43,425 - database - INFO - Таблицы students и unpaired_students инициализированы
+2025-04-18 15:28:43,426 - database - INFO - Таблица lectures инициализирована
+2025-04-18 15:28:43,949 - __main__ - INFO - Webhook успешно удалён
+2025-04-18 15:28:43,954 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:28:43,954 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:28:43,955 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:28:43,955 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 15:28:43,956 - apscheduler.scheduler - INFO - Added job "organize_random_coffee" to job store "default"
+2025-04-18 15:28:43,956 - apscheduler.scheduler - INFO - Added job "organize_mock_interview" to job store "default"
+2025-04-18 15:28:43,956 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 15:28:43,956 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 15:28:43,957 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-18 15:28:43,957 - __main__ - INFO - Планировщик задач запущен
+2025-04-18 15:28:43,957 - __main__ - INFO - Бот запущен
+2025-04-18 15:28:43,957 - aiogram.dispatcher - INFO - Start polling
+2025-04-18 15:28:44,039 - aiogram.dispatcher - INFO - Run polling for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 15:28:50,524 - handlers.registration - INFO - Команда /start от just_hlebuchek
+2025-04-18 15:28:50,815 - handlers.registration - INFO - Начало регистрации для just_hlebuchek
+2025-04-18 15:28:50,815 - aiogram.event - INFO - Update id=48360516 is handled. Duration 296 ms by bot id=7380357980
+2025-04-18 15:28:54,231 - handlers.registration - INFO - Регистрация завершена для just_hlebuchek: ШАР, None
+2025-04-18 15:28:54,232 - aiogram.event - INFO - Update id=48360517 is handled. Duration 125 ms by bot id=7380357980
+2025-04-18 15:28:55,649 - handlers.registration - INFO - Выбор в меню студента: Посмотреть лекции от just_hlebuchek
+2025-04-18 15:28:55,650 - database - INFO - Получено 4 лекций из базы. Параметры: school=ШАР, direction=None
+2025-04-18 15:28:55,786 - handlers.registration - INFO - Показан список лекций для just_hlebuchek
+2025-04-18 15:28:55,787 - aiogram.event - INFO - Update id=48360518 is handled. Duration 139 ms by bot id=7380357980
+2025-04-18 16:08:02,260 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-18 16:08:02,527 - aiogram.dispatcher - INFO - Polling stopped for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 16:11:41,220 - database - INFO - Tables students and unpaired_students initialized
+2025-04-18 16:11:41,220 - database - INFO - Table lectures initialized
+2025-04-18 16:11:41,220 - __main__ - INFO - Databases initialized
+2025-04-18 16:12:17,492 - database - INFO - Tables students and unpaired_students initialized
+2025-04-18 16:12:17,492 - database - INFO - Table lectures initialized
+2025-04-18 16:12:17,492 - __main__ - INFO - Databases initialized
+2025-04-18 16:12:18,017 - __main__ - INFO - Webhook successfully deleted
+2025-04-18 16:12:18,017 - handlers.registration - INFO - Registration handlers registered
+2025-04-18 16:12:18,017 - __main__ - INFO - Handlers registered
+2025-04-18 16:12:18,017 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:12:18,017 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:12:18,017 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:12:18,017 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:12:18,027 - apscheduler.scheduler - INFO - Added job "organize_random_coffee" to job store "default"
+2025-04-18 16:12:18,028 - apscheduler.scheduler - INFO - Added job "organize_mock_interview" to job store "default"
+2025-04-18 16:12:18,028 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 16:12:18,029 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 16:12:18,029 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-18 16:12:18,029 - __main__ - INFO - Scheduler started with tasks for Random Coffee, Mock Interview, and lecture reminders
+2025-04-18 16:12:18,030 - __main__ - INFO - Bot started polling
+2025-04-18 16:12:18,030 - aiogram.dispatcher - INFO - Start polling
+2025-04-18 16:12:18,099 - aiogram.dispatcher - INFO - Run polling for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 16:12:35,990 - aiogram.event - INFO - Update id=48360519 is not handled. Duration 0 ms by bot id=7380357980
+2025-04-18 16:12:44,576 - aiogram.event - INFO - Update id=48360520 is not handled. Duration 0 ms by bot id=7380357980
+2025-04-18 16:13:41,103 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-18 16:13:41,365 - __main__ - INFO - Bot session closed
+2025-04-18 16:13:41,366 - aiogram.dispatcher - INFO - Polling stopped for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 16:13:49,794 - database - INFO - Таблицы students и unpaired_students инициализированы
+2025-04-18 16:13:49,794 - database - INFO - Таблица lectures инициализирована
+2025-04-18 16:13:50,325 - __main__ - INFO - Webhook успешно удалён
+2025-04-18 16:13:50,326 - handlers.registration - INFO - Registration handlers registered
+2025-04-18 16:13:50,330 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:13:50,331 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:13:50,331 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:13:50,331 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:13:50,332 - apscheduler.scheduler - INFO - Added job "organize_random_coffee" to job store "default"
+2025-04-18 16:13:50,333 - apscheduler.scheduler - INFO - Added job "organize_mock_interview" to job store "default"
+2025-04-18 16:13:50,333 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 16:13:50,333 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 16:13:50,333 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-18 16:13:50,334 - __main__ - INFO - Планировщик задач запущен
+2025-04-18 16:13:50,334 - __main__ - INFO - Бот запущен
+2025-04-18 16:13:50,334 - aiogram.dispatcher - INFO - Start polling
+2025-04-18 16:13:50,418 - aiogram.dispatcher - INFO - Run polling for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 16:13:56,499 - aiogram.event - INFO - Update id=48360521 is not handled. Duration 0 ms by bot id=7380357980
+2025-04-18 16:38:09,052 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-18 16:38:09,308 - aiogram.dispatcher - INFO - Polling stopped for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 16:38:22,077 - database - INFO - Таблицы students и unpaired_students инициализированы
+2025-04-18 16:38:22,080 - database - INFO - Таблица lectures инициализирована

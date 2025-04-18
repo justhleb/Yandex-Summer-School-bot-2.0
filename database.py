@@ -98,6 +98,35 @@ def get_lectures_for_week(school=None, direction=None):
     finally:
         conn.close()
 
+def get_lectures_for_day(school=None, direction=None):
+    """Получение лекций на текущий день."""
+    try:
+        conn = sqlite3.connect('schedule.db')
+        c = conn.cursor()
+        
+        today = datetime.now().date().strftime('%Y-%m-%d')
+        
+        if school and direction:
+            c.execute("SELECT * FROM lectures WHERE school = ? AND direction = ? AND date = ?",
+                      (school, direction, today))
+        elif school:
+            c.execute("SELECT * FROM lectures WHERE school = ? AND date = ?",
+                      (school, today))
+        else:
+            c.execute("SELECT * FROM lectures WHERE date = ?",
+                      (today,))
+        
+        lectures = c.fetchall()
+        logger.info(f"Получено {len(lectures)} лекций на текущий день. Параметры: school={school}, direction={direction}")
+        logger.debug(f"Лекции на день: {lectures}")
+        
+        return lectures
+    except sqlite3.Error as e:
+        logger.error(f"Ошибка при получении лекций на день: {e}")
+        return []
+    finally:
+        conn.close()
+
 def get_unpaired_students(pair_type, school=None, direction=None):
     """Получение списка непарных студентов для Random Coffee или Mock Interview."""
     try:
