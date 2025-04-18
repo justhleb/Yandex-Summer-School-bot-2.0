@@ -105,9 +105,6 @@ async def student_menu(message: Message, state: FSMContext):
     username = message.from_user.username or str(message.from_user.id)
     logger.info(f"Выбор в меню студента: {choice} от {username}")
     
-    if choice == "Октавиан Август":
-        logger.info(f"Сообщение 'Октавиан Август' от {username} пропущено для обработки админкой")
-        return
     
     conn = sqlite3.connect('students.db')
     c = conn.cursor()

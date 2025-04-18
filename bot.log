@@ -958,3 +958,162 @@ AttributeError: 'FSMContext' object has no attribute 'finish'
 2025-04-18 16:41:56,026 - aiogram.dispatcher - WARNING - Sleep for 5.017955 seconds and try again... (tryings = 8, bot id = 7380357980)
 2025-04-18 16:42:01,132 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
 2025-04-18 16:42:01,132 - aiogram.dispatcher - WARNING - Sleep for 5.097359 seconds and try again... (tryings = 9, bot id = 7380357980)
+2025-04-18 16:47:12,760 - database - INFO - Таблицы students и unpaired_students инициализированы
+2025-04-18 16:47:12,760 - database - INFO - Таблица lectures инициализирована
+2025-04-18 16:47:13,286 - __main__ - INFO - Webhook успешно удалён
+2025-04-18 16:47:13,286 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:47:13,286 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:47:13,296 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:47:13,296 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:47:13,296 - apscheduler.scheduler - INFO - Added job "organize_random_coffee" to job store "default"
+2025-04-18 16:47:13,296 - apscheduler.scheduler - INFO - Added job "organize_mock_interview" to job store "default"
+2025-04-18 16:47:13,296 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 16:47:13,296 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 16:47:13,296 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-18 16:47:13,296 - __main__ - INFO - Планировщик задач запущен
+2025-04-18 16:47:13,296 - __main__ - INFO - Бот запущен
+2025-04-18 16:47:13,296 - aiogram.dispatcher - INFO - Start polling
+2025-04-18 16:47:13,383 - aiogram.dispatcher - INFO - Run polling for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 16:47:17,400 - aiogram.event - INFO - Update id=48360523 is not handled. Duration 14 ms by bot id=7380357980
+2025-04-18 16:47:24,482 - aiogram.event - INFO - Update id=48360524 is not handled. Duration 0 ms by bot id=7380357980
+2025-04-18 16:48:13,182 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-04-18 16:48:13,190 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7380357980)
+2025-04-18 16:48:24,407 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7380357980)
+2025-04-18 16:49:21,997 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-18 16:49:22,249 - aiogram.dispatcher - INFO - Polling stopped for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 16:50:41,404 - __main__ - INFO - РўР°Р±Р»РёС†Р° lectures СЃРѕР·РґР°РЅР° РІ schedule.db
+2025-04-18 16:50:41,406 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРђР , direction=None, date=2025-04-19
+2025-04-18 16:50:41,407 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРђР , direction=None, date=2025-04-21
+2025-04-18 16:50:41,407 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРђР , direction=None, date=2025-04-25
+2025-04-18 16:50:41,408 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРђР , direction=None, date=2025-05-01
+2025-04-18 16:50:41,409 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРђР , direction=None, date=2025-05-10
+2025-04-18 16:50:41,410 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=Android, date=2025-04-19
+2025-04-18 16:50:41,410 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=Android, date=2025-04-21
+2025-04-18 16:50:41,411 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=Android, date=2025-04-25
+2025-04-18 16:50:41,412 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=Android, date=2025-05-01
+2025-04-18 16:50:41,412 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=Android, date=2025-05-10
+2025-04-18 16:50:41,413 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=iOS, date=2025-04-19
+2025-04-18 16:50:41,413 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=iOS, date=2025-04-21
+2025-04-18 16:50:41,414 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=iOS, date=2025-04-25
+2025-04-18 16:50:41,415 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=iOS, date=2025-05-01
+2025-04-18 16:50:41,415 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=iOS, date=2025-05-10
+2025-04-18 16:50:41,416 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=Flutter, date=2025-04-19
+2025-04-18 16:50:41,417 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=Flutter, date=2025-04-21
+2025-04-18 16:50:41,417 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=Flutter, date=2025-04-25
+2025-04-18 16:50:41,418 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=Flutter, date=2025-05-01
+2025-04-18 16:50:41,418 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњР , direction=Flutter, date=2025-05-10
+2025-04-18 16:50:41,419 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=Java, date=2025-04-19
+2025-04-18 16:50:41,419 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=Java, date=2025-04-21
+2025-04-18 16:50:41,419 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=Java, date=2025-04-25
+2025-04-18 16:50:41,420 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=Java, date=2025-05-01
+2025-04-18 16:50:41,421 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=Java, date=2025-05-10
+2025-04-18 16:50:41,422 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=C++, date=2025-04-19
+2025-04-18 16:50:41,422 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=C++, date=2025-04-21
+2025-04-18 16:50:41,423 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=C++, date=2025-04-25
+2025-04-18 16:50:41,424 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=C++, date=2025-05-01
+2025-04-18 16:50:41,425 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=C++, date=2025-05-10
+2025-04-18 16:50:41,425 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=Python, date=2025-04-19
+2025-04-18 16:50:41,426 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=Python, date=2025-04-21
+2025-04-18 16:50:41,427 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=Python, date=2025-04-25
+2025-04-18 16:50:41,428 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=Python, date=2025-05-01
+2025-04-18 16:50:41,429 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР‘Р , direction=Python, date=2025-05-10
+2025-04-18 16:50:41,429 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР Р, direction=None, date=2025-04-19
+2025-04-18 16:50:41,431 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР Р, direction=None, date=2025-04-21
+2025-04-18 16:50:41,432 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР Р, direction=None, date=2025-04-25
+2025-04-18 16:50:41,433 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР Р, direction=None, date=2025-05-01
+2025-04-18 16:50:41,434 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁР Р, direction=None, date=2025-05-10
+2025-04-18 16:50:41,435 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРћРљ, direction=None, date=2025-04-19
+2025-04-18 16:50:41,436 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРћРљ, direction=None, date=2025-04-21
+2025-04-18 16:50:41,436 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРћРљ, direction=None, date=2025-04-25
+2025-04-18 16:50:41,436 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРћРљ, direction=None, date=2025-05-01
+2025-04-18 16:50:41,438 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРћРљ, direction=None, date=2025-05-10
+2025-04-18 16:50:41,439 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњРЇ, direction=None, date=2025-04-19
+2025-04-18 16:50:41,440 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњРЇ, direction=None, date=2025-04-21
+2025-04-18 16:50:41,441 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњРЇ, direction=None, date=2025-04-25
+2025-04-18 16:50:41,442 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњРЇ, direction=None, date=2025-05-01
+2025-04-18 16:50:41,442 - __main__ - INFO - Р”РѕР±Р°РІР»РµРЅР° Р»РµРєС†РёСЏ: school=РЁРњРЇ, direction=None, date=2025-05-10
+2025-04-18 16:50:41,455 - __main__ - INFO - РЎРѕР·РґР°РЅРѕ 50 С‚РµСЃС‚РѕРІС‹С… Р»РµРєС†РёР№
+2025-04-18 16:50:54,491 - database - INFO - Таблицы students и unpaired_students инициализированы
+2025-04-18 16:50:54,491 - database - INFO - Таблица lectures инициализирована
+2025-04-18 16:50:55,560 - __main__ - INFO - Webhook успешно удалён
+2025-04-18 16:50:55,565 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:50:55,565 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:50:55,566 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:50:55,566 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:50:55,566 - apscheduler.scheduler - INFO - Added job "organize_random_coffee" to job store "default"
+2025-04-18 16:50:55,567 - apscheduler.scheduler - INFO - Added job "organize_mock_interview" to job store "default"
+2025-04-18 16:50:55,567 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 16:50:55,567 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 16:50:55,567 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-18 16:50:55,567 - __main__ - INFO - Планировщик задач запущен
+2025-04-18 16:50:55,567 - __main__ - INFO - Бот запущен
+2025-04-18 16:50:55,567 - aiogram.dispatcher - INFO - Start polling
+2025-04-18 16:50:55,819 - aiogram.dispatcher - INFO - Run polling for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 16:51:13,108 - handlers.registration - INFO - Команда /start от just_hlebuchek
+2025-04-18 16:51:13,546 - handlers.registration - INFO - Начало регистрации для just_hlebuchek
+2025-04-18 16:51:13,547 - aiogram.event - INFO - Update id=48360525 is handled. Duration 438 ms by bot id=7380357980
+2025-04-18 16:51:35,781 - handlers.registration - INFO - Регистрация завершена для just_hlebuchek: ШАР, None
+2025-04-18 16:51:35,782 - aiogram.event - INFO - Update id=48360526 is handled. Duration 264 ms by bot id=7380357980
+2025-04-18 16:51:47,124 - handlers.registration - INFO - Выбор в меню студента: Посмотреть лекции от just_hlebuchek
+2025-04-18 16:51:47,125 - database - INFO - Получено 5 лекций из базы. Параметры: school=ШАР, direction=None
+2025-04-18 16:51:47,322 - handlers.registration - INFO - Показан список лекций для just_hlebuchek
+2025-04-18 16:51:47,323 - aiogram.event - INFO - Update id=48360527 is handled. Duration 202 ms by bot id=7380357980
+2025-04-18 16:51:50,960 - handlers.registration - INFO - Выбор в меню студента: Лекции на неделю от just_hlebuchek
+2025-04-18 16:51:50,962 - database - INFO - Получено 3 лекций на неделю. Параметры: school=ШАР, direction=None
+2025-04-18 16:51:51,136 - handlers.registration - INFO - Показан список лекций на неделю для just_hlebuchek
+2025-04-18 16:51:51,136 - aiogram.event - INFO - Update id=48360528 is handled. Duration 188 ms by bot id=7380357980
+2025-04-18 16:51:54,866 - handlers.registration - INFO - Выбор в меню студента: Random Coffee от just_hlebuchek
+2025-04-18 16:51:54,973 - handlers.registration - INFO - Пользователь just_hlebuchek записаны на Random Coffee
+2025-04-18 16:51:54,973 - aiogram.event - INFO - Update id=48360529 is handled. Duration 110 ms by bot id=7380357980
+2025-04-18 16:51:57,470 - handlers.registration - INFO - Выбор в меню студента: Mock Interview от just_hlebuchek
+2025-04-18 16:51:57,568 - handlers.registration - INFO - Пользователь just_hlebuchek записаны на Mock Interview
+2025-04-18 16:51:57,568 - aiogram.event - INFO - Update id=48360530 is handled. Duration 94 ms by bot id=7380357980
+2025-04-18 16:52:42,629 - handlers.registration - INFO - Выбор в меню студента: Октавиан Август от just_hlebuchek
+2025-04-18 16:52:42,629 - handlers.registration - INFO - Сообщение 'Октавиан Август' от just_hlebuchek пропущено для обработки админкой
+2025-04-18 16:52:42,629 - aiogram.event - INFO - Update id=48360531 is handled. Duration 0 ms by bot id=7380357980
+2025-04-18 16:53:20,157 - handlers.registration - INFO - Выбор в меню студента: Октавиан Август от just_hlebuchek
+2025-04-18 16:53:20,158 - handlers.registration - INFO - Сообщение 'Октавиан Август' от just_hlebuchek пропущено для обработки админкой
+2025-04-18 16:53:20,158 - aiogram.event - INFO - Update id=48360532 is handled. Duration 0 ms by bot id=7380357980
+2025-04-18 16:56:36,710 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-18 16:56:36,973 - aiogram.dispatcher - INFO - Polling stopped for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 16:56:44,490 - database - INFO - Таблицы students и unpaired_students инициализированы
+2025-04-18 16:56:44,490 - database - INFO - Таблица lectures инициализирована
+2025-04-18 16:56:44,999 - __main__ - INFO - Webhook успешно удалён
+2025-04-18 16:56:45,003 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:56:45,005 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:56:45,005 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:56:45,005 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:56:45,006 - apscheduler.scheduler - INFO - Added job "organize_random_coffee" to job store "default"
+2025-04-18 16:56:45,006 - apscheduler.scheduler - INFO - Added job "organize_mock_interview" to job store "default"
+2025-04-18 16:56:45,007 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 16:56:45,007 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 16:56:45,007 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-18 16:56:45,007 - __main__ - INFO - Планировщик задач запущен
+2025-04-18 16:56:45,009 - __main__ - INFO - Бот запущен
+2025-04-18 16:56:45,009 - aiogram.dispatcher - INFO - Start polling
+2025-04-18 16:56:45,076 - aiogram.dispatcher - INFO - Run polling for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 16:56:52,756 - handlers.admin - INFO - Попытка активации админского режима для just_hlebuchek, текущий state: None, текст: Октавиан Август
+2025-04-18 16:56:52,761 - handlers.admin - INFO - Поле school для just_hlebuchek установлено в АДМИН, оригинальная школа: ШАР
+2025-04-18 16:56:53,025 - handlers.admin - INFO - Админский режим успешно активирован для just_hlebuchek
+2025-04-18 16:56:53,026 - aiogram.event - INFO - Update id=48360533 is handled. Duration 280 ms by bot id=7380357980
+2025-04-18 16:56:57,921 - handlers.admin - INFO - Админский выбор: Выйти из админки от 797860340
+2025-04-18 16:56:57,926 - handlers.admin - INFO - Восстановлена школа ШАР для just_hlebuchek
+2025-04-18 16:56:58,036 - handlers.admin - INFO - Пользователь 797860340 вышел из админки
+2025-04-18 16:56:58,037 - aiogram.event - INFO - Update id=48360534 is handled. Duration 109 ms by bot id=7380357980
+2025-04-18 16:57:12,461 - handlers.admin - INFO - Попытка активации админского режима для just_hlebuchek, текущий state: None, текст: Октавиан Август
+2025-04-18 16:57:12,466 - handlers.admin - INFO - Поле school для just_hlebuchek установлено в АДМИН, оригинальная школа: ШАР
+2025-04-18 16:57:12,556 - handlers.admin - INFO - Админский режим успешно активирован для just_hlebuchek
+2025-04-18 16:57:12,556 - aiogram.event - INFO - Update id=48360535 is handled. Duration 94 ms by bot id=7380357980
+2025-04-18 16:58:04,523 - handlers.admin - INFO - Админский выбор: Изменить лекцию от 797860340
+2025-04-18 16:58:04,524 - database - INFO - Получено 50 лекций из базы. Параметры: school=None, direction=None
+2025-04-18 16:58:04,799 - handlers.admin - INFO - Переход к изменению лекции
+2025-04-18 16:58:04,799 - aiogram.event - INFO - Update id=48360536 is handled. Duration 280 ms by bot id=7380357980
+2025-04-18 16:58:27,191 - database - INFO - Получено 50 лекций из базы. Параметры: school=None, direction=None
+2025-04-18 16:58:27,442 - handlers.admin - INFO - Выбрана лекция для редактирования: ID 48
+2025-04-18 16:58:27,443 - aiogram.event - INFO - Update id=48360537 is handled. Duration 250 ms by bot id=7380357980
+2025-04-18 16:58:32,931 - handlers.admin - INFO - Пользователь 797860340 вернулся в меню админки
+2025-04-18 16:58:32,931 - aiogram.event - INFO - Update id=48360538 is handled. Duration 140 ms by bot id=7380357980
+2025-04-18 16:58:35,774 - handlers.admin - INFO - Админский выбор: Выйти из админки от 797860340
+2025-04-18 16:58:35,780 - handlers.admin - INFO - Восстановлена школа ШАР для just_hlebuchek
+2025-04-18 16:58:35,885 - handlers.admin - INFO - Пользователь 797860340 вышел из админки
+2025-04-18 16:58:35,885 - aiogram.event - INFO - Update id=48360539 is handled. Duration 125 ms by bot id=7380357980
