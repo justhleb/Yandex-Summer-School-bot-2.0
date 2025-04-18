@@ -922,3 +922,39 @@ AttributeError: 'FSMContext' object has no attribute 'finish'
 2025-04-18 16:38:09,308 - aiogram.dispatcher - INFO - Polling stopped for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
 2025-04-18 16:38:22,077 - database - INFO - Таблицы students и unpaired_students инициализированы
 2025-04-18 16:38:22,080 - database - INFO - Таблица lectures инициализирована
+2025-04-18 16:38:38,255 - database - INFO - Таблицы students и unpaired_students инициализированы
+2025-04-18 16:38:38,256 - database - INFO - Таблица lectures инициализирована
+2025-04-18 16:38:38,810 - __main__ - INFO - Webhook успешно удалён
+2025-04-18 16:38:38,820 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:38:38,820 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:38:38,821 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:38:38,821 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 16:38:38,824 - apscheduler.scheduler - INFO - Added job "organize_random_coffee" to job store "default"
+2025-04-18 16:38:38,824 - apscheduler.scheduler - INFO - Added job "organize_mock_interview" to job store "default"
+2025-04-18 16:38:38,824 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 16:38:38,824 - apscheduler.scheduler - INFO - Added job "send_lecture_reminders" to job store "default"
+2025-04-18 16:38:38,825 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-18 16:38:38,825 - __main__ - INFO - Планировщик задач запущен
+2025-04-18 16:38:38,825 - __main__ - INFO - Бот запущен
+2025-04-18 16:38:38,825 - aiogram.dispatcher - INFO - Start polling
+2025-04-18 16:38:38,919 - aiogram.dispatcher - INFO - Run polling for bot @YandexSummerSchool_bot id=7380357980 - 'YandexSummerSchool_bot'
+2025-04-18 16:41:25,192 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by setWebhook request
+2025-04-18 16:41:25,192 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7380357980)
+2025-04-18 16:41:29,298 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 16:41:29,298 - aiogram.dispatcher - WARNING - Sleep for 1.399894 seconds and try again... (tryings = 1, bot id = 7380357980)
+2025-04-18 16:41:30,782 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 16:41:30,782 - aiogram.dispatcher - WARNING - Sleep for 1.842001 seconds and try again... (tryings = 2, bot id = 7380357980)
+2025-04-18 16:41:35,704 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 16:41:35,704 - aiogram.dispatcher - WARNING - Sleep for 2.409140 seconds and try again... (tryings = 3, bot id = 7380357980)
+2025-04-18 16:41:38,210 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 16:41:38,210 - aiogram.dispatcher - WARNING - Sleep for 3.173694 seconds and try again... (tryings = 4, bot id = 7380357980)
+2025-04-18 16:41:41,472 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 16:41:41,472 - aiogram.dispatcher - WARNING - Sleep for 4.194065 seconds and try again... (tryings = 5, bot id = 7380357980)
+2025-04-18 16:41:45,762 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 16:41:45,762 - aiogram.dispatcher - WARNING - Sleep for 5.130445 seconds and try again... (tryings = 6, bot id = 7380357980)
+2025-04-18 16:41:50,970 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 16:41:50,971 - aiogram.dispatcher - WARNING - Sleep for 4.969801 seconds and try again... (tryings = 7, bot id = 7380357980)
+2025-04-18 16:41:56,025 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 16:41:56,026 - aiogram.dispatcher - WARNING - Sleep for 5.017955 seconds and try again... (tryings = 8, bot id = 7380357980)
+2025-04-18 16:42:01,132 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-18 16:42:01,132 - aiogram.dispatcher - WARNING - Sleep for 5.097359 seconds and try again... (tryings = 9, bot id = 7380357980)
